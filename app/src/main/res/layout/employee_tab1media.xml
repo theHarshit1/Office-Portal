@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    android:background="@color/backgroundmain">
+
+    <TableRow android:padding="2dp">
+    <Button
+        android:id="@+id/images"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="IMAGES"
+        android:padding="55dp"
+        android:layout_marginHorizontal="2dp"
+        android:background="@color/gridButton" />
+    <Button
+        android:id="@+id/docs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DOCS"
+        android:padding="55dp"
+        android:layout_marginHorizontal="2dp"
+        android:background="@color/gridButton"/>
+    </TableRow>
+</TableLayout>

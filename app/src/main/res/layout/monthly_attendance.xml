@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/totalAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/cell_shape_head1"
+        android:text="Total Attendance"
+        android:textSize="20sp"
+        android:textColor="#FFE8E7D0"
+        android:padding="8dp"/>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="#ffffff"
+        android:id="@+id/tableLayout"
+        android:layout_below="@+id/totalAttendance">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Date"
+                android:textSize="20sp"
+                android:background="@drawable/cell_shape_head1"
+                android:padding="8dp"
+                android:textColor="#e8e7d0"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:text="IN"
+                android:textSize="20sp"
+                android:background="@drawable/cell_shape_head1"
+                android:padding="8dp"
+                android:textColor="#e8e7d0"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:text="OUT"
+                android:textSize="20sp"
+                android:background="@drawable/cell_shape_head1"
+                android:padding="8dp"
+                android:textColor="#e8e7d0"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/tick1" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

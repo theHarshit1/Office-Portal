@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "88986804101",
+    "firebase_url": "https://login-8a1d0.firebaseio.com",
+    "project_id": "login-8a1d0",
+    "storage_bucket": "login-8a1d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88986804101:android:834740052895025d",
+        "android_client_info": {
+          "package_name": "com.example.harshits_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88986804101-2bqc4fa6r8rac2h2nj4j9q1imv1crftv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshits_app",
+            "certificate_hash": "8ea05385fa8558f4106c6531fd3ba9ae38ac5716"
+          }
+        },
+        {
+          "client_id": "88986804101-ae083ept2rm4av98pluhcakj3ss3ork8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKkiDu95y_Mq29LYDWmECQF37ORY7RMfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88986804101-ae083ept2rm4av98pluhcakj3ss3ork8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

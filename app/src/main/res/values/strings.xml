@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ink Top</string>
+    <string name="editext_width">270dp</string>
+    <string name="searchtype1">employee id</string>
+    <string name="searchtype2">position</string>
+    <string name="searchtype3">name</string>
+    <string name="searchtype4">reference</string>
+    <string name="searchtype5">salary</string>
+    <string name="addIncome">Add Income</string>
+    <string name="addExpense">Add Expense</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Today's Attendance"
+        android:id="@+id/button1"
+        android:padding="20dp"
+        android:background="@drawable/menu_buttons"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button1"
+        android:text="Monthly Attendance"
+        android:id="@+id/button2"
+        android:padding="20dp"
+        android:background="@drawable/menu_buttons"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:text="Request Leave"
+        android:padding="20dp"
+        android:background="@drawable/menu_buttons"
+        android:id="@+id/button3"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

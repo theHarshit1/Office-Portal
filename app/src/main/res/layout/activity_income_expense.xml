@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeExpense"
+    android:background="@color/backgroundmain"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/amount"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/searchbar"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:hint="Amount"
+        android:textColorHint="#e2939393"/>
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="8dp"
+        android:background="@drawable/blue_button"/>
+
+    <TableLayout
+        android:id="@+id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:stretchColumns="*">
+        <TextView
+            android:textColor="#fff"
+            android:text="Statistics:"
+            android:textSize="22sp"
+            android:background="@drawable/cell_shape_head1"
+            android:padding="5dp"/>
+
+        <TableRow>
+            <TextView
+                android:textColor="#fff"
+                android:text="Duration"
+                android:textSize="22sp"
+                android:background="@drawable/cell_shape_head1"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/type"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:background="@drawable/cell_shape_head1"
+                android:padding="5dp"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/weekRow">
+            <TextView android:textSize="20sp"
+                android:text="Week Average"
+                android:padding="5dp"
+                android:background="@drawable/transparent_edittext"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/monthRow">
+            <TextView android:textSize="20sp"
+                android:padding="5dp"
+                android:text="Month Average"
+                android:background="@drawable/transparent_edittext"
+                android:textColor="#fff"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

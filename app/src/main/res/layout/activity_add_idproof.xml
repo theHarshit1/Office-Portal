@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddIDproof"
+    android:orientation="vertical"
+    android:background="@color/backgroundmain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID proof front:"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="17sp"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/chooseImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose image"
+            android:background="@drawable/blue_button"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID proof back:"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="17sp"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/chooseImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose image"
+            android:background="@drawable/blue_button"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="50dp"/>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/blue_button" />
+
+    <ProgressBar
+        android:id="@+id/uploadprogress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+</LinearLayout>
